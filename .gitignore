@@ -1,0 +1,7 @@
+# ignore all css file i.e doesnot track this file
+*.css    
+# app.js file lai track garna xodenxa i.e ignore garxa app.js file lai
+app.js 
+
+# passwords folder lai i.e tesa vitrako sabai file lai ignore or track garna xodaxa
+passwords/
