@@ -1,14 +1,14 @@
 name: Arjun khanal
 
 on:
-  push:
-    branches: [ main ]
+  schedule:
+    - cron: "0 0 * * *"
 
 jobs:
-  demo:
+  Schedule Job:
     runs-on: ubuntu-latest
 
 
     steps:
       - name: Greetings
-        run: echo "Hello From Arjun"
+        run: echo "Schedule workflow execute"
